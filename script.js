@@ -8,5 +8,5 @@ Array.from(forms).forEach(form => {
 			event.stopPropagation();
 		}
 		form.classList.add('was-validated')
-	},flase)
+	},false)
 })
